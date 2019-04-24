@@ -51,4 +51,4 @@ class QuickSort(SortingStrategy):
 				values[i], values[border] = values[border], values[i]
 		values[first], values[border] = values[border], values[first]
 
-		return (border)
+		return border
