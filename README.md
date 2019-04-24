@@ -19,7 +19,7 @@ In this repository, I compiled some some sorting algorithms and implemented them
 
 ## Built With
 
-### Python 3
+* Python 3
 
 ## Sorting Algorithms Implemented
 
