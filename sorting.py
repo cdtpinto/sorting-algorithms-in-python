@@ -19,7 +19,7 @@ class SortingContext:
 		print("Sorting took %f seconds to complete" % elapsed_time)
 
 def main():
-	values = [random.randint(1, 101) for i in range(int(sys.argv[1]))]
+	values = [random.randint(1, 100) for i in range(int(sys.argv[1]))]
 
 	sorting_algorithm = None
 
