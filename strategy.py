@@ -8,6 +8,8 @@ class SortingStrategy(metaclass=abc.ABCMeta):
 		pass
 
 class BubbleSort(SortingStrategy):
+	name = "Bubble Sort"
+
 	def sort(self, values):
 		for num in range(len(values)-1, 0, -1):
 			for i in range(num):
@@ -17,6 +19,8 @@ class BubbleSort(SortingStrategy):
 					values[i+1] = temp
 
 class QuickSort(SortingStrategy):
+	name = "Quick Sort"
+
 	def sort(self, values):
 		QuickSort.sort_helper(values, 0, len(values)-1)
 

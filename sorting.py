@@ -11,11 +11,16 @@ class SortingContext:
 
 	def sort(self, values):
 		#print("Unsorted values: ", values)
+		
+		print("%s is sorting the values" % self._sorting_strategy.name)
+
 		sorting_start = time.time()
 		self._sorting_strategy.sort(values)
 		sorting_finish = time.time()
 		elapsed_time = sorting_finish - sorting_start
+		
 		#print("Sorted values:   ", values)
+		
 		print("Sorting took %f seconds to complete" % elapsed_time)
 
 def main():
@@ -28,6 +33,7 @@ def main():
 
 	elif sys.argv[2] == "quick":
 		sorting_algorithm = SortingContext(QuickSort())
+
 	else:
 		sys.exit("You have to specify a valid sorting algorithm!")
 	
