@@ -4,7 +4,7 @@ Some sorting algorithms implemented in Python.
 
 ## What is This?
 
-In this repository, I compiled some some sorting algorithms implemented in Python. This repository doesn't have anything new, per say. I coded this with two purposes: the first one is self improvement and the second one is to offer a single place where sorting algorithms implementations and details can be accessed.
+In this repository, I compiled some some sorting algorithms and implemented them in Python. This repository doesn't have anything new, per say. I coded this with two purposes: the first one was self improvement and the second one was to offer a single place where sorting algorithms implementations and details can be accessed for study or usage.
 
 ## Usage
 
