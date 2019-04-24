@@ -32,7 +32,7 @@ class QuickSort(SortingStrategy):
 			QuickSort.sort_helper(values, split_point+1, last)
 
 	def get_pivot(values, first, last):
-		mid = (last + first) // 2
+		mid = (first + last) // 2
 		pivot = last
 
 		if values[first] < values[mid]:
