@@ -23,6 +23,6 @@ In this repository, I compiled some some sorting algorithms and implemented them
 
 ## Sorting Algorithms Implemented
 
-### [Bubble Sort](https://cdtpinto.github.io/pages/sorting#bubble-sort)
+* [Bubble Sort](https://cdtpinto.github.io/pages/sorting#bubble-sort)
 
-### [Quick Sort](https://cdtpinto.github.io/pages/sorting#quick-sort)
+* [Quick Sort](https://cdtpinto.github.io/pages/sorting#quick-sort)
