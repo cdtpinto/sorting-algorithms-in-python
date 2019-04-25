@@ -10,16 +10,16 @@ class SortingContext:
 		self._sorting_strategy = sorting_strategy
 
 	def sort(self, values):
-		#print("Unsorted values: ", values)
+		print("Unsorted values: ", values)
 		
-		print("%s is sorting the values" % self._sorting_strategy.name)
+		print("%s is sorting the values" % self._sorting_strategy.label)
 
 		sorting_start = time.time()
 		self._sorting_strategy.sort(values)
 		sorting_finish = time.time()
 		elapsed_time = sorting_finish - sorting_start
 		
-		#print("Sorted values:   ", values)
+		print("Sorted values:   ", values)
 		
 		print("Sorting took %f seconds to complete" % elapsed_time)
 
