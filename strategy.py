@@ -10,12 +10,10 @@ class BubbleSort(SortingStrategy):
 	label = "Bubble Sort"
 
 	def sort(self, values):
-		for num in range(len(values)-1, 0, -1):
-			for i in range(num):
-				if values[i] > values[i+1]:
-					temp = values[i]
-					values[i] = values[i+1]
-					values[i+1] = temp
+		for i in range(len(values)):
+			for j in range(0, len(values)-i-1):
+				if values[j] > values[j+1]:
+					values[j], values[j+1] = values[j+1], values[j]
 
 class QuickSort(SortingStrategy):
 	label = "Quick Sort"
