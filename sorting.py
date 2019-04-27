@@ -4,6 +4,7 @@ import sys
 import time
 from strategy import BubbleSort
 from strategy import QuickSort
+from strategy import SelectionSort
 
 class SortingContext:
 	def __init__(self, sorting_strategy):
@@ -33,7 +34,8 @@ def main():
 
 	elif sys.argv[2] == "quick":
 		sorting_algorithm = SortingContext(QuickSort())
-
+	elif sys.argv[2] == "selection":
+		sorting_algorithm = SortingContext(SelectionSort())
 	else:
 		sys.exit("You have to specify a valid sorting algorithm!")
 	

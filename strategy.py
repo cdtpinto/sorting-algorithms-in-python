@@ -55,3 +55,14 @@ class QuickSort(SortingStrategy):
 		values[first], values[border] = values[border], values[first]
 
 		return border
+
+class SelectionSort(SortingStrategy):
+	label = "Selection Sort"
+
+	def sort(self, values):
+		for i in range(len(values)):
+			min_index = i
+			for j in range(i+1, len(values)):
+				if values[min_index] > values[j]:
+					min_index = j
+			values[i], values[min_index] = values[min_index], values[i]
