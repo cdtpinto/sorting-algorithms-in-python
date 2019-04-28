@@ -20,7 +20,7 @@ class SortingContext:
 		sorting_finish = time.time()
 		elapsed_time = sorting_finish - sorting_start
 		
-		print("Sorted values:   ", values)
+		print("Sorted values: ", values)
 		
 		print("Sorting took %f seconds to complete" % elapsed_time)
 
@@ -31,7 +31,6 @@ def main():
 
 	if sys.argv[2] == "bubble":
 		sorting_algorithm = SortingContext(BubbleSort())
-
 	elif sys.argv[2] == "quick":
 		sorting_algorithm = SortingContext(QuickSort())
 	elif sys.argv[2] == "selection":
