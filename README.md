@@ -22,7 +22,7 @@ In this repository, I compiled some some sorting algorithms and implemented them
 
 * [Python 3](https://www.python.org/download/releases/3.0/)
 
-## Sorting Algorithms Implemented
+## Sorting Algorithms Implemented So Far
 
 * [Bubble Sort](https://cdtpinto.github.io/pages/sorting#bubble-sort)
 
